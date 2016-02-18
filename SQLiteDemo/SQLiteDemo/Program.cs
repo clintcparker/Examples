@@ -12,27 +12,32 @@ namespace SQLiteDemo
         static void Main(string[] args)
         {
             var sqlite = new Sqlite();
+            sqlite.CreateNewDatabase();
+            sqlite.ConnectToDatabase();
+            sqlite.CreateTable();
+            sqlite.FillTable();
+            sqlite.PrintHighscores();
         }
     }
 
-    class Sqlite
+    public class Sqlite
     {
         private SQLiteConnection m_dbConnection;
         // Creates an empty database file
-        void createNewDatabase()
+        public void CreateNewDatabase()
         {
             SQLiteConnection.CreateFile("MyDatabase.sqlite");
         }
 
         // Creates a connection with our database file.
-        void connectToDatabase()
+        public void ConnectToDatabase()
         {
             m_dbConnection = new SQLiteConnection("Data Source=MyDatabase.sqlite;Version=3;");
             m_dbConnection.Open();
         }
 
         // Creates a table named 'highscores' with two columns: name (a string of max 20 characters) and score (an int)
-        void createTable()
+        public void CreateTable()
         {
             string sql = "create table highscores (name varchar(20), score int)";
             SQLiteCommand command = new SQLiteCommand(sql, m_dbConnection);
@@ -41,7 +46,7 @@ namespace SQLiteDemo
 
         // Inserts some values in the highscores table.
         // As you can see, there is quite some duplicate code here, we'll solve this in part two.
-        void fillTable()
+        public void FillTable()
         {
             string sql = "insert into highscores (name, score) values ('Me', 3000)";
             SQLiteCommand command = new SQLiteCommand(sql, m_dbConnection);
@@ -55,7 +60,7 @@ namespace SQLiteDemo
         }
 
         // Writes the highscores to the console sorted on score in descending order.
-        void printHighscores()
+        public void PrintHighscores()
         {
             string sql = "select * from highscores order by score desc";
             SQLiteCommand command = new SQLiteCommand(sql, m_dbConnection);
