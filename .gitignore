@@ -18,9 +18,13 @@
 x64/
 x86/
 <<<<<<< HEAD
+<<<<<<< HEAD
 build/
 =======
 >>>>>>> c8e6ad16df01c7120287512168b2ebc0270346f5
+=======
+build/
+>>>>>>> 4228c04ebad46ae5abedbfc300e373715467eed9
 bld/
 [Bb]in/
 [Oo]bj/
@@ -28,10 +32,13 @@ bld/
 # Visual Studio 2015 cache/options directory
 .vs/
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
 >>>>>>> c8e6ad16df01c7120287512168b2ebc0270346f5
+=======
+>>>>>>> 4228c04ebad46ae5abedbfc300e373715467eed9
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -83,9 +90,12 @@ ipch/
 *.aps
 *.ncb
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 *.opendb
 >>>>>>> c8e6ad16df01c7120287512168b2ebc0270346f5
+=======
+>>>>>>> 4228c04ebad46ae5abedbfc300e373715467eed9
 *.opensdf
 *.sdf
 *.cachefile
@@ -95,9 +105,12 @@ ipch/
 *.vsp
 *.vspx
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 *.sap
 >>>>>>> c8e6ad16df01c7120287512168b2ebc0270346f5
+=======
+>>>>>>> 4228c04ebad46ae5abedbfc300e373715467eed9
 
 # TFS 2012 Local Workspace
 $tf/
@@ -123,9 +136,12 @@ _TeamCity*
 _NCrunch_*
 .*crunch*.local.xml
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 nCrunchTemp_*
 >>>>>>> c8e6ad16df01c7120287512168b2ebc0270346f5
+=======
+>>>>>>> 4228c04ebad46ae5abedbfc300e373715467eed9
 
 # MightyMoose
 *.mm.*
@@ -154,16 +170,22 @@ publish/
 *.[Pp]ublish.xml
 *.azurePubxml
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4228c04ebad46ae5abedbfc300e373715467eed9
 ## TODO: Comment the next line if you want to checkin your
 ## web deploy settings but do note that will include unencrypted
 ## passwords
 #*.pubxml
 
+<<<<<<< HEAD
 =======
 # TODO: Comment the next line if you want to checkin your web deploy settings 
 # but database connection strings (with potential passwords) will be unencrypted
 *.pubxml
 >>>>>>> c8e6ad16df01c7120287512168b2ebc0270346f5
+=======
+>>>>>>> 4228c04ebad46ae5abedbfc300e373715467eed9
 *.publishproj
 
 # NuGet Packages
@@ -175,6 +197,9 @@ publish/
 # Uncomment if necessary however generally it will be regenerated when needed
 #!**/packages/repositories.config
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4228c04ebad46ae5abedbfc300e373715467eed9
 
 # Windows Azure Build Output
 csx/
@@ -182,6 +207,7 @@ csx/
 
 # Windows Store app package directory
 AppPackages/
+<<<<<<< HEAD
 =======
 # NuGet v3's project.json files produces more ignoreable files
 *.nuget.props
@@ -202,6 +228,8 @@ ApplicationInsights.config
 AppPackages/
 BundleArtifacts/
 >>>>>>> c8e6ad16df01c7120287512168b2ebc0270346f5
+=======
+>>>>>>> 4228c04ebad46ae5abedbfc300e373715467eed9
 
 # Visual Studio cache files
 # files ending in .cache can be ignored
@@ -212,9 +240,13 @@ BundleArtifacts/
 # Others
 ClientBin/
 <<<<<<< HEAD
+<<<<<<< HEAD
 [Ss]tyle[Cc]op.*
 =======
 >>>>>>> c8e6ad16df01c7120287512168b2ebc0270346f5
+=======
+[Ss]tyle[Cc]op.*
+>>>>>>> 4228c04ebad46ae5abedbfc300e373715467eed9
 ~$*
 *~
 *.dbmdl
@@ -248,11 +280,14 @@ UpgradeLog*.htm
 FakesAssemblies/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # GhostDoc plugin setting file
 *.GhostDoc.xml
 
 >>>>>>> c8e6ad16df01c7120287512168b2ebc0270346f5
+=======
+>>>>>>> 4228c04ebad46ae5abedbfc300e373715467eed9
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
 
@@ -263,10 +298,14 @@ FakesAssemblies/
 *.opt
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4228c04ebad46ae5abedbfc300e373715467eed9
 # LightSwitch generated files
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+<<<<<<< HEAD
 =======
 # Visual Studio LightSwitch build output
 **/*.HTMLClient/GeneratedArtifacts
@@ -282,3 +321,5 @@ _Pvt_Extensions
 # FAKE - F# Make
 .fake/
 >>>>>>> c8e6ad16df01c7120287512168b2ebc0270346f5
+=======
+>>>>>>> 4228c04ebad46ae5abedbfc300e373715467eed9
